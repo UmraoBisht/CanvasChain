@@ -1,0 +1,29 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Next.js
+.next/
+out/
+
+# Output
+dist/
+build/
+storybook-static/
+
+# Testing & Coverage
+coverage/
+playwright-report/
+test-results/
+
+# Turbo & Tooling
+.turbo/
+*.log
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.local
+.env*.local

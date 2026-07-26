@@ -1,0 +1,21 @@
+{
+  "name": "@canvas-chain/utils",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@canvas-chain/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@canvas-chain/config": "workspace:*",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.7"
+  }
+}

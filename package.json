@@ -1,0 +1,28 @@
+{
+  "name": "canvas-chain-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json,css}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,md,json,css}\"",
+    "storybook": "turbo run storybook --filter=@canvas-chain/ui",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.2",
+    "turbo": "^2.4.4",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.7"
+  },
+  "packageManager": "pnpm@10.6.5",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
