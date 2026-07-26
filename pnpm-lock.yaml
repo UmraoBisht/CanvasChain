@@ -29,6 +29,9 @@ importers:
 
   apps/docs:
     dependencies:
+      '@canvas-chain/icons':
+        specifier: workspace:*
+        version: link:../../packages/icons
       '@canvas-chain/shared':
         specifier: workspace:*
         version: link:../../packages/shared
