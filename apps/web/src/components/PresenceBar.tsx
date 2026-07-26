@@ -27,7 +27,7 @@ export function PresenceBar({ users, onUserClick, onAddPeer }: PresenceBarProps)
             onClick={() => onUserClick && onUserClick(u)}
             title={`${u.name} ${u.isSelf ? '(You)' : '(Click to follow)'}`}
             style={{ borderColor: u.color }}
-            className="relative inline-block h-7 w-7 rounded-full border-2 bg-card text-foreground flex items-center justify-center font-bold text-[10px] shadow-sm cursor-pointer transition-transform hover:scale-110 hover:z-10"
+            className="relative h-7 w-7 rounded-full border-2 bg-card text-foreground flex items-center justify-center font-bold text-[10px] shadow-sm cursor-pointer transition-transform hover:scale-110 hover:z-10"
           >
             {u.avatar || u.name.slice(0, 2).toUpperCase()}
             <span className="absolute bottom-0 right-0 h-2 w-2 rounded-full bg-emerald-500 ring-1 ring-background" />

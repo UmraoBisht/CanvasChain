@@ -1,5 +1,5 @@
 {
-  "extends": "@canvas-chain/config/tsconfig.react.json",
+  "extends": "../../packages/config/tsconfig.react.json",
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist"
