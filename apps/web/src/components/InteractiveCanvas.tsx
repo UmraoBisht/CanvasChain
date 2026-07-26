@@ -1002,6 +1002,7 @@ export function InteractiveCanvas({
 
               {/* Uploaded Image */}
               {node.shapeType === 'image' && node.src && (
+                // eslint-disable-next-line @next/next/no-img-element
                 <img
                   src={node.src}
                   alt="Canvas Upload"
